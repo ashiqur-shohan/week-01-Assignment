@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .navbarr{
+    background-color: #1A187A;
+    display: flex;
+    
+    padding-top: 16px;
+    padding-bottom: 16px;
+} */
+/* .logo{
+    margin-left: 190px;
+}
+
+.navigation{
+    
+    color: white;
+    display: flex;
+    list-style-type: none;
+    margin-left: 23px;
+    gap: 52px;
+}
+.icon-first{
+    margin-left: 9px;
+}
+.icon-second{
+    margin-left: 24px;
+} */
+.navv{
+    background-color:  #7851A9;
+    
+}
+.heading-first{
+    font-family: Montserrat;
+    font-style: bold;
+}
+.carousel-item.active{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner .left-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.imagee-1{
+    width: 60%; 
+    height: 65%;
+}
+.imagee-2{
+    margin-left: 600px;
+    width: 30%;
+    height: 40%;
+    background-size: cover;
+}
+
+.banner{ 
+    height: 450px;
+    background-image: url(./resources/v904-nunny-012\ 1.png);
+    background-size: cover;
+}
+.left2 .card{
+    height: 200px;
+}
+
+.right2
+{
+    height: 400px;
+}
+.cards{
+    
+    margin-top: 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.macbook{
+    display: flex;
+}
+.macbook .macbook-left{
+    margin-left: 20%;
+    margin-top: 12%;
+}
+.macbook .macbook-img{
+    width: 150%;
+    height: 100%;
+}
+.air-max-img{
+    height: 28%;
+}
+
+.category{
+    margin-left: 10%;
+    
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+
+.buying{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buying .card{
+    position: relative;
+}
+.card-img-top{
+    margin-top: 15%;
+}
+.buying .card-body{
+    display: flex;
+    flex-direction: column;
+}
+.love-icon{
+    position: absolute;
+    top: 2% ;
+    right: 5% ;
+}
+.sale{
+    width: 100%;
+    height: 60%;
+    background: #958AD4;
+    display: flex;
+    justify-content: space-between;
+}
+.sale-left{ 
+    margin-top: 56px;
+    /* width: 421px; */
+    height: 342px;
+    flex-shrink: 0;
+}
+.sale-heading{
+    
+    margin-top: 170px;
+    font-family: Montserrat;
+    display: flex;
+    gap: 5px;
+}
+.sale-midle{
+    width: 320px;
+    height: 72px;
+}
+.sale-des{
+    text-align: center;
+    color: white;
+}
+.sale-l{
+    color: #25177B;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 72px;
+}
+.sale-r{
+    color: white;
+    font-family: Montserrat;
+    font-weight: 900;
+    font-size: 72px;
+}
+.sale-right{
+    margin-left: 80px;
+    margin-top: 67px;
+    /* width: 570px; */
+    height: 357px;
+    
+}
+
+.info{
+    padding-top:104px;
+    padding-left: 160px;
+    padding-bottom: 104px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.info-2{
+    display: flex;
+    gap: 20px;
+    
+}
+
+@media (max-width:480px) {
+    .banner{
+        width: 100vw;
+    }
+    .carousel-item.active{
+        display: block !important;
+    }
+    .buying{
+        flex-wrap: wrap;
+    }
+    .cards{
+        display: block;
+        margin-top: 1px;
+    }
+    .imagee-1{
+        width: 30%; 
+        height: 45%;
+        margin-left: 30%;
+        margin-top: -10%;
+    }
+    .btn{
+        display: none;
+        visibility: hidden;
+    }
+    .macbook{
+        display: block;
+    }
+    .category .items{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .sale{
+        width: 100%;
+        height: 60%;
+        background: #958AD4;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sale .sale-left{ 
+        margin-top: 0;
+        height: 10% !important;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+}
